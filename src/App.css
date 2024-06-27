@@ -30,27 +30,24 @@
   }
   
   .services ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   
   .services li {
+    flex-basis: 25%;
     margin: 20px;
   }
   
   .service-box {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    width: 200px;
-    height: 150px;
-    text-align: center;
-    cursor: pointer;
+    width: 100%;
   }
   
   .service-box:hover {
@@ -179,4 +176,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .photography-gallery {
+    padding: 20px;
   }
