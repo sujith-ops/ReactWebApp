@@ -70,47 +70,47 @@ function Footer() {
           </div>
           <small class='website-rights'>C&C © 2020</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
+  <a
+    class='social-icon-link facebook'
+    href='https://www.facebook.com/'
+    target='_blank'
+    aria-label='Facebook'
+  >
+    <i class='fab fa-facebook-f' />
+  </a>
+  <a
+    class='social-icon-link instagram'
+    href='https://www.instagram.com/more_pixelclicks?igsh=ZXNrcmF6NG5zOHE3/'
+    target='_blank'
+    aria-label='Instagram'
+  >
+    <i class='fab fa-instagram' />
+  </a>
+  <a
+    class='social-icon-link youtube'
+    href='https://www.youtube.com/your-youtube-channel/'
+    target='_blank'
+    aria-label='Youtube'
+  >
+    <i class='fab fa-youtube' />
+  </a>
+  <a
+    class='social-icon-link twitter'
+    href='https://www.twitter.com/your-twitter-handle/'
+    target='_blank'
+    aria-label='Twitter'
+  >
+    <i class='fab fa-twitter' />
+  </a>
+  <a
+    class='social-icon-link linkedin'
+    href='https://www.linkedin.com/your-linkedin-profile/'
+    target='_blank'
+    aria-label='LinkedIn'
+  >
+    <i class='fab fa-linkedin' />
+  </a>
+</div>
         </div>
       </section>
     </div>
